@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Nov-2024 às 21:16
+-- Tempo de geração: 28-Nov-2024 às 22:30
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.0.19
 
@@ -40,7 +40,9 @@ CREATE TABLE `tbusuario` (
 --
 
 INSERT INTO `tbusuario` (`id`, `nome`, `email`, `senha`, `perfil`) VALUES
-(1, 'Amanda', 'amanda@gmail.com', '123', 'Aluno');
+(1, 'Amanda', 'amanda@gmail.com', '123', 'Aluno'),
+(2, 'Josinaldo Jarbas', 'jarbas@gmail.com', '123', 'Professor'),
+(3, 'Julia Dias', 'julia@gmail.com', '123', 'Diretor');
 
 --
 -- Índices para tabelas despejadas
@@ -60,7 +62,7 @@ ALTER TABLE `tbusuario`
 -- AUTO_INCREMENT de tabela `tbusuario`
 --
 ALTER TABLE `tbusuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
