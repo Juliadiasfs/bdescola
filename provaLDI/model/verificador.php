@@ -1,5 +1,5 @@
 <?php
-session_start();  // Inicia a sessão
+session_start();  
 
 include_once "../factory/conexao.php";
 $email = $_POST['cxemail'];
