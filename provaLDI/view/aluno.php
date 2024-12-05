@@ -16,6 +16,11 @@
             color: white;
             font-size: 100px;
             font-family: Arial, sans-serif;
+            
+        }
+        
+        a:link{
+         color: white;
         }
     </style>
 </head>

@@ -20,6 +20,8 @@
     </style>
 </head>
 <body>
-    <div> Tela Professor</div>
+    <div> Tela Professor
+        <a href="index.php">Voltar</a>
+    </div>
 </body>
 </html>
